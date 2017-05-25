@@ -14,12 +14,12 @@ public class sActivity extends AppCompatActivity {
     }
     public void onClick(View v){
         if(v.getId() == R.id.test){
-            Intent intent = new Intent(sActivity.this,testActivity.class);
+            Intent intent = new Intent(sActivity.this,test2Activity.class);
             startActivity(intent);
         }
-//        else if(v.getId() == R.id.main){
-//            Intent intent = new Intent(sActivity.this,MainActivity.class);
-//            startActivity(intent);
-//        }
+        else if(v.getId() == R.id.main){
+            Intent intent = new Intent(sActivity.this,LoadingMainActivity.class);
+            startActivity(intent);
+        }
     }
 }

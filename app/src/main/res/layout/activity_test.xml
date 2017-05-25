@@ -18,4 +18,28 @@
         android:text="start"
         android:id="@+id/start"/>
 
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="당신의 이름은?"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/e1"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Thread 에서 받은 데이터"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/e2"/>
+    <Button
+        android:text="전송"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/b1"
+        android:onClick="onClick"/>
+
 </LinearLayout>
